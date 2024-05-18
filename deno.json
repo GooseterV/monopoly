@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "main": "deno run --allow-write  ./main.js",
+    "dice": "deno run --allow-read --allow-write ./dice.js"
+  }
+}

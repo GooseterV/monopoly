@@ -1,0 +1,26 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:chart.js": "npm:chart.js@4.4.2",
+      "npm:javascript-color-gradient": "npm:javascript-color-gradient@2.4.4"
+    },
+    "npm": {
+      "@kurkle/color@0.3.2": {
+        "integrity": "sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==",
+        "dependencies": {}
+      },
+      "chart.js@4.4.2": {
+        "integrity": "sha512-6GD7iKwFpP5kbSD4MeRRRlTnQvxfQREy36uEtm1hzHzcOqwWx0YEHuspuoNlslu+nciLIB7fjjsHkUv/FzFcOg==",
+        "dependencies": {
+          "@kurkle/color": "@kurkle/color@0.3.2"
+        }
+      },
+      "javascript-color-gradient@2.4.4": {
+        "integrity": "sha512-kbt3Y1eltW4X789P1eQzCUEB5X7hFmLNpQT4bgDFMtj/cW2v+j8ms/rLSR7jndZUAP6yya4vyeZK6bRqh6yClA==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}
