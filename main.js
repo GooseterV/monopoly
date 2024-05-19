@@ -152,6 +152,7 @@ const iter = 50;
 let t = [];
 const cash = [];
 for (let i= 0; i < iter; i++) {
+	// Run the simulation with main(x, y) where x is the number of turns and y is the number of players
 	const t2 = main( 1000000, 4);
 	t = helper.addTalliedValues(t2[0], t)
 	cash.push(t2[1])

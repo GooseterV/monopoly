@@ -1,7 +1,7 @@
 const main = async () => {
     const ctx = document.getElementById('myChart');
     const ctx2 = document.getElementById('myChart-2');
-	const data = await (await fetch("http://127.0.0.1:5500/monopoly/statsDice.json")).json();
+	const data = await (await fetch("http://127.0.0.1:5500/statsDice.json")).json();
     /*data = Object.entries(data).map(x => {
         let dta = x[1];
         const lbl = x[0];

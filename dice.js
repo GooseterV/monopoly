@@ -7,8 +7,10 @@ function main(n) {
 
 	return [move, ...rolls];
 }
+// Run the simulation a specified number of times
 const iter = 1*10**10;
 const t = {};
+// amount of turns to take (1 turn = 2 rolls) this statistically covers most possible moves over a period of time
 const TURNS = 3;
 
 const gradientArray = ["#3c9ce6", "#3c74e6", "#3f3ce6", "#6f3ce6", "#be3ce6", "#e63c9c", "#c41862", "#a60f28", "#cf2802", "#d16806", "#f2da3d", "#d7f229", "#a8f229", "#65f229", "#0da624", "#0fb86e", "#0fb88d", "#33d4be", "#2af5d0", "#0cf5f1", "#0ccef5", "#1d99c2", "#127799"];

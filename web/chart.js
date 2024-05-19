@@ -332,7 +332,7 @@ const _sortDataIntoColorGroups = (data) => {
 const main = async () => {
     // Main function
     const ctx = document.getElementById('myChart');
-    let data = await (await fetch("http://127.0.0.1:5500/monopoly/stats.json")).json();
+    let data = await (await fetch("http://127.0.0.1:5500/stats.json")).json();
     data = [data[0].map(x => [
         x[0], x[1], x[2],
         Number(/.+\(([0-9]+)/gm.exec(x[0])[1]),
