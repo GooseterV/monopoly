@@ -30,3 +30,6 @@ Same with `dice.js` for the dice program.
 
 To open the web view, start a web server on **`PORT 5500`** in the main `/monopoly` directory and navigate to `localhost:5500/web/chart.html`. (or `/chartDice.html`)
 
+Visit me [here](https://gooseterv.github.io/monopoly/github/chart.html) to see the web view in action.
+Dice: [here](https://gooseterv.github.io/monopoly/github/chartDice.html)
+
