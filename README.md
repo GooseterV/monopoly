@@ -7,7 +7,7 @@ A web view is available via the /web/ directory.
 
 ## Installation
 
-First, install (deno)[https://deno.land/]
+First, install [deno](https://deno.land)
 
 Then, clone the repository and navigate to the directory.
 
